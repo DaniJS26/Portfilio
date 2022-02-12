@@ -1,0 +1,312 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* nav Bar */
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-color: #191919;
+    background-image: url(https://cutewallpaper.org/21/web-design-wallpaper/Best-Web-Design-Company-and-Digital-Marketing-Agency-in-.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    color: white;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3rem;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 15px 45px;
+    display: inline-block;
+    font-size: 17px;
+}
+
+.span1 {
+    color: #f9004d;
+}
+
+.span2 {
+    color: yellow;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+
+nav ul li a:hover {
+    transition: .4s;
+    color: #f9004d;
+    transform: scale(1.2);
+}
+
+/* Content */
+
+.content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    transform: translateY(-50%);
+}
+
+h1 {
+    color: white;
+    margin: 20px 0px;
+    font-size: 4rem;
+}
+
+h3 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+h4 {
+    color: #00FFFF;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.newsletter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.newsletter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: none;
+    font-size: 14px;
+    outline: none;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px #00FFFF, 0px 0px 15px #858585;
+}
+
+.newsletter form input:last-child {
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: #f9004d;
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    cursor: pointer;
+    top: 3px;
+    right: 6px;
+    font-size: 1rem;
+}
+
+.newsletter form input:last-child:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+/* ABOUT SECTION */
+
+.about {
+    background-color: #030706;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.about-container {
+    width: 1130px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.about-jpg {
+    width: 35%;
+    border: none;
+    box-shadow: 0px 0px 15px #858585;
+    border-radius: 30px;
+}
+
+.text {
+    width: 600px;
+}
+
+.text h2 {
+    color: white;
+    letter-spacing: 1px;
+    font-size: 5rem;
+    text-transform: capitalize;
+}
+
+.text h4 {
+    margin: 20px 0px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.text p {
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.text button {
+    background-color: #f9004d;
+    color: white;
+    padding: 12px 25px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.text button:hover {
+    transition: .4s;
+    background-color: transparent;
+    border: 1px solid #f9004d;
+    box-shadow: 0px 0px 10px #858585;
+    cursor: pointer;
+}
+
+.service {
+    width: 100%;
+    padding: 100px 0px;
+    background: #101010;
+}
+
+.title h2 {
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+}
+
+.card {
+    height: 365px;
+    width: 335px;
+    border-radius: 20px;
+    padding: 20px 15px;
+    background: #030706;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    margin: 20px ;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: .4s;
+}
+
+.card i {
+    font-size: 40px;
+    margin: 20px 0px;
+    color: #f9004d;
+
+}
+
+.card h5 {
+    font-size: 20px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.card p {
+    margin: 18px 0px;
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 27px;
+}
+
+.readmore {
+    background-color: #f9004d;
+    color: white;
+    padding: 12px 17px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.readmore:hover {
+    transition: .4s;
+    background-color: transparent;
+    border: 1px solid #f9004d;
+    box-shadow: 0px 0px 10px #858585;
+    cursor: pointer;
+}
+
+.hire {
+    background-color: #030706;
+    display: flex;
+    align-items: center;
+    height: 290px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hire h2 {
+    display: block;
+    color:white;
+    font-size: 2rem;
+}
+
+.contact-btn {
+    font-size: 18px;
+    font-family: bold;
+    background-color: #f9004d;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    margin-top: 15px;
+    letter-spacing: 1px;
+}
+
+.contact-btn:hover {
+    border: 1px solid #f9004d;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    transition: .4s;
+    box-shadow: 0px 0px 15px #858585;
+}    
